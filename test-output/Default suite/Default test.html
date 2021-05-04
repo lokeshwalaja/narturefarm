@@ -1,0 +1,442 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>67/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 31 15:15:59 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>1015 seconds (1015226 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Handzap.TestCases.Runner.AddEmailwithInValidData()'><b>AddEmailwithInValidData</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>12</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.AddEmailwithValidData()'><b>AddEmailwithValidData</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>14</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.CancelSearch()'><b>CancelSearch</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>9</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.Cancelfordeletepost()'><b>Cancelfordeletepost</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>10</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.CreateAccountwithInvalidFullName()'><b>CreateAccountwithInvalidFullName</b><br>Test class: Handzap.TestCases.Runner<br/>
+<a href="#Output-414225167" onClick='toggleBox("Output-414225167", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-414225167" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-414225167">
+Invalid Name is Shown<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.CreateAccountwithInvalidPassword()'><b>CreateAccountwithInvalidPassword</b><br>Test class: Handzap.TestCases.Runner<br/>
+<a href="#Output-1453606810" onClick='toggleBox("Output-1453606810", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1453606810" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1453606810">
+Error Message is Shown<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.CreateAccountwithInvalidPhoneNumber()'><b>CreateAccountwithInvalidPhoneNumber</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>14</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.CreateAccountwithRegisterednumber()'><b>CreateAccountwithRegisterednumber</b><br>Test class: Handzap.TestCases.Runner<br/>
+<a href="#Output-767436045" onClick='toggleBox("Output-767436045", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-767436045" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-767436045">
+Error Message  is Shown<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.CreateAccountwithnumberirrespectivetocountry()'><b>CreateAccountwithnumberirrespectivetocountry</b><br>Test class: Handzap.TestCases.Runner<br/>
+<a href="#Output-836969741" onClick='toggleBox("Output-836969741", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-836969741" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-836969741">
+Invalid PhoneNumber is Shown<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.CreateNewPost()'><b>CreateNewPost</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>50</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.DeletethePicture()'><b>DeletethePicture</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>14</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.DifferentPasswords()'><b>DifferentPasswords</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>20</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.DisableAlertsforPost()'><b>DisableAlertsforPost</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>9</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.DisableAlertsforSearch()'><b>DisableAlertsforSearch</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>9</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.DisableAllNotificationsforPost()'><b>DisableAllNotificationsforPost</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>11</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.DisableAllNotificationsforSearch()'><b>DisableAllNotificationsforSearch</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>10</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.DisableAudiocallforPost()'><b>DisableAudiocallforPost</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>9</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.DisableAudiocallforSearch()'><b>DisableAudiocallforSearch</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>11</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.DisableNotificationsforPost()'><b>DisableNotificationsforPost</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>7</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.DisableNotificationsforsearch()'><b>DisableNotificationsforsearch</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>11</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.DisablePosterInvitation()'><b>DisablePosterInvitation</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>9</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.DisableVideocallforPost()'><b>DisableVideocallforPost</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>12</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.DisableVideocallforSearch()'><b>DisableVideocallforSearch</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>9</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.DoNotDisturbforAlways()'><b>DoNotDisturbforAlways</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>10</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.DoNotDisturbforSchedulded()'><b>DoNotDisturbforSchedulded</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>25</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.EditsearchPaymentMethodasCash()'><b>EditsearchPaymentMethodasCash</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>23</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.EditsearchPaymentMethodasEPayment()'><b>EditsearchPaymentMethodasEPayment</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>22</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.EditsearchRatefieldasFixedBudget()'><b>EditsearchRatefieldasFixedBudget</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>19</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.EditsearchRatefieldasHourlyRate()'><b>EditsearchRatefieldasHourlyRate</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>15</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.EnableNotificationsforPost()'><b>EnableNotificationsforPost</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>7</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.EnableNotificationsforsearch()'><b>EnableNotificationsforsearch</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>8</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.InviteFavourites()'><b>InviteFavourites</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>13</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.JobtermFieldasMultiDaysJob()'><b>JobtermFieldasMultiDaysJob</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>15</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.JobtermFieldasRecurring()'><b>JobtermFieldasRecurring</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>15</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.JobtermFieldasSameDayJob()'><b>JobtermFieldasSameDayJob</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>14</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.Loginnavigation()'><b>Loginnavigation</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>7</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.NavigationtoLanguagesScreen()'><b>NavigationtoLanguagesScreen</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>4</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.PausePost()'><b>PausePost</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>8</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.Pausesearch()'><b>Pausesearch</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>9</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.ResumePost()'><b>ResumePost</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>8</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.Resumesearch()'><b>Resumesearch</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>8</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.RetentionforNever()'><b>RetentionforNever</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>13</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.RetentionforNineMonths()'><b>RetentionforNineMonths</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>13</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.RetentionforSixMonths()'><b>RetentionforSixMonths</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>16</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.RetentionforTwelveMonths()'><b>RetentionforTwelveMonths</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>13</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.SearchRadiustoFiftyKms()'><b>SearchRadiustoFiftyKms</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>16</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.SearchRadiustoFiveKms()'><b>SearchRadiustoFiveKms</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>17</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.SearchRadiustoHundredKms()'><b>SearchRadiustoHundredKms</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>16</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.SearchRadiustoTenKms()'><b>SearchRadiustoTenKms</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>17</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.SearchRadiustoTwentyFiveKms()'><b>SearchRadiustoTwentyFiveKms</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>16</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.SearchRadiustoTwoFiftyKms()'><b>SearchRadiustoTwoFiftyKms</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>13</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.Settings()'><b>Settings</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>11</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.SignupNavigation()'><b>SignupNavigation</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>8</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.UpdateNamewithInValidData()'><b>UpdateNamewithInValidData</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>20</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.UpdateNamewithValidData()'><b>UpdateNamewithValidData</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>12</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.UpdatePasswordwithInvalidOTP()'><b>UpdatePasswordwithInvalidOTP</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>43</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.deletePost()'><b>deletePost</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>11</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.deletesearch()'><b>deletesearch</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>12</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.editpostasrecurringjob()'><b>editpostasrecurringjob</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>23</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.editpostassamedayjob()'><b>editpostassamedayjob</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>23</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.editpostformultidaysjob()'><b>editpostformultidaysjob</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>24</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.editpostforpaymentmethodasEpayment()'><b>editpostforpaymentmethodasEpayment</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>22</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.editpostforpaymentmethodasFixedBudget()'><b>editpostforpaymentmethodasFixedBudget</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>22</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.editpostforpaymentmethodasHourlyRate()'><b>editpostforpaymentmethodasHourlyRate</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>22</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.editpostforpaymentmethodascash()'><b>editpostforpaymentmethodascash</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>22</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.login()'><b>login</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>17</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+<tr>
+<td title='Handzap.TestCases.Runner.turnOntwoStepVerification()'><b>turnOntwoStepVerification</b><br>Test class: Handzap.TestCases.Runner</td>
+<td></td>
+<td>8</td>
+<td>Handzap.TestCases.Runner@66d1af89</td></tr>
+</table><p>
+</body>
+</html>

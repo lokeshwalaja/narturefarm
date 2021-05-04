@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Handzap.TestCases.Runner">
+        <methods>
+          <include name="SearchRadiustoTwoFiftyKms"/>
+          <include name="Resumesearch"/>
+          <include name="deletesearch"/>
+          <include name="CancelSearch"/>
+          <include name="SearchRadiustoTenKms"/>
+          <include name="setExtent"/>
+          <include name="setUp"/>
+          <include name="EnableNotificationsforsearch"/>
+          <include name="JobtermFieldasRecurring"/>
+          <include name="Pausesearch"/>
+          <include name="SearchRadiustoTwentyFiveKms"/>
+          <include name="DisableNotificationsforsearch"/>
+          <include name="EditsearchRatefieldasHourlyRate"/>
+          <include name="tearDown"/>
+          <include name="SearchRadiustoFiveKms"/>
+          <include name="JobtermFieldasSameDayJob"/>
+          <include name="EditsearchPaymentMethodasCash"/>
+          <include name="EditsearchRatefieldasFixedBudget"/>
+          <include name="EditsearchPaymentMethodasEPayment"/>
+          <include name="SearchRadiustoHundredKms"/>
+          <include name="SearchRadiustoFiftyKms"/>
+          <include name="JobtermFieldasMultiDaysJob"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- Handzap.TestCases.Runner -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
